@@ -10,6 +10,8 @@ public class StringEquals {
 		String c = "Java";
 		System.out.println(a.equals(b));
 		System.out.println(a.equals(c));
+		// ko phan biet chu hoa chu thuong 
+		System.out.println(a.equalsIgnoreCase(b));
 	}
 
 }
